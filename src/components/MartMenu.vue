@@ -324,7 +324,8 @@ h2 {
 /* --- NEW: Style for the item image --- */
 .item-image {
   width: 100%;
-  height: 120px;
+  aspect-ratio: 1 / 1; /* Keep thumbnails perfectly square */
+  height: auto;
   object-fit: cover; /* Makes the image cover the area without distortion */
 }
 
@@ -455,8 +456,9 @@ h2 {
 
 .modal-image {
   width: 100%;
-  height: 250px;
-  object-fit: cover;
+  height: auto;
+  max-height: 100vh; /* Keep it within the viewport */
+  object-fit: contain; /* Show full image without cropping */
   border-radius: 8px;
   margin-bottom: 20px;
 }
