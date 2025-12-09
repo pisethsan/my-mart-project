@@ -2,7 +2,7 @@
   <!-- Main container for the entire menu app -->
   <div id="mart-menu">
     <header>
-      <h1>My Mart</h1>
+      <h1>E-Mart</h1>
       <p>Your one-stop shop for fresh goods</p>
     </header>
 
@@ -93,76 +93,140 @@ const categories = ref([
   {
     name: 'Fruits',
     items: [
-      { id: 101, name: 'Apple', price: 1.20, unit: 'kg', imageUrl: 'https://www.shutterstock.com/image-photo/red-apple-cut-half-water-600nw-2532255795.jpg', description: 'Crisp, sweet, and perfect for a healthy snack. Sourced from local orchards.' },
-      { id: 102, name: 'Banana', price: 0.75, unit: 'kg', imageUrl: 'https://thumbs.dreamstime.com/b/bunch-bananas-6175887.jpg', description: 'A rich source of potassium, great for energy. Sold individually.' },
-      { id: 103, name: 'Orange', price: 0.90, unit: 'kg', imageUrl: 'https://previews.123rf.com/images/phayoke/phayoke1606/phayoke160600036/59616610-fresh-orange-fruit-and-orage-half-fruit-on-white-background.jpg', description: 'Packed with Vitamin C, this juicy orange is a perfect immunity booster.' },
-      { id: 104, name: 'Mango', price: 2.50, unit: 'kg', imageUrl: 'https://placehold.co/280x150/FDF8E1/F39C12?text=Mango', description: 'Sweet, tropical, and ready to eat. A taste of sunshine.' },
-      { id: 105, name: 'Strawberries', price: 3.50, unit: 'kg', imageUrl: 'https://placehold.co/280x150/FEEEEE/E74C3C?text=Strawberries', description: 'Freshly picked, ripe strawberries. Perfect for desserts or on their own.' },
-      { id: 106, name: 'Blueberries', price: 4.00, unit: 'kg', imageUrl: 'https://placehold.co/280x150/EBF5FB/3498DB?text=Blueberries', description: 'Sweet and tiny antioxidants. Great for smoothies or cereal.' },
-      { id: 107, name: 'Grapes', price: 5.00, unit: 'kg', imageUrl: 'https://placehold.co/280x150/F5EEF8/8E44AD?text=Grapes', description: 'Seedless green grapes, sold by the kilogram. Crisp and delicious.' },
+      { id: 101, name: 'Avocados', price: 3.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/RVPZNXbh/avocados.jpg', description: '' },
+      { id: 102, name: 'Passion', price: 3.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/L4tTKZQq/passion.jpg', description: '' },
+      { id: 103, name: 'Beetroot', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/D0p3yYf5/beetroot.jpg', description: '' },
+      { id: 104, name: 'Yellow Watermelon', price: 0.75, unit: 'kg', imageUrl: 'https://i.postimg.cc/15yK95bb/Yellow_Watermelon.jpg', description: '' },
+      { id: 105, name: 'Red Watermelon', price: 0.50, unit: 'kg', imageUrl: 'https://i.postimg.cc/qMpGkMWx/Red_Watermelon.jpg', description: '' },
+      { id: 106, name: 'Dragon Fruit', price: 1.75, unit: 'kg', imageUrl: 'https://i.postimg.cc/L5p3gH53/dragon_fruit.jpg', description: '' },
+      { id: 107, name: 'Papaya', price: 1.25, unit: 'kg', imageUrl: 'https://i.postimg.cc/br9HQKS7/papaya.jpg', description: '' },
+      { id: 108, name: 'Seedless Guava', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/tC9zXC8L/Seedless_guava.jpg', description: '' },
+      { id: 109, name: 'Guava Kimjo', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/prJYDg58/guavas_kimjo.jpg', description: '' },
     ]
   },
   {
     name: 'Vegetables',
     items: [
-      { id: 201, name: 'Carrot', price: 1.80, unit: 'kg', imageUrl: 'https://placehold.co/280x150/FAE5D3/E67E22?text=Carrot', description: 'Fresh, crunchy carrots. Ideal for roasting, salads, or juicing.' },
-      { id: 202, name: 'Broccoli', price: 2.20, unit: 'head', imageUrl: 'https://placehold.co/280x150/E9F7EF/2ECC71?text=Broccoli', description: 'A vibrant green head of broccoli, packed with vitamins. Sold per head.' },
-      { id: 203, name: 'Tomato', price: 3.00, unit: 'kg', imageUrl: 'https://placehold.co/280x150/FADBD8/E74C3C?text=Tomato', description: 'Ripe vine tomatoes, perfect for sauces or fresh salads. Sold by the kilogram.' },
-      { id: 204, name: 'Spinach', price: 2.75, unit: 'bag', imageUrl: 'https://placehold.co/280x150/D4EFDF/27AE60?text=Spinach', description: 'A large bag of fresh baby spinach. Tender and ready to eat.' },
-      { id: 205, name: 'Cucumber', price: 1.00, unit: 'each', imageUrl: 'https://placehold.co/280x150/E8F8F5/1ABC9C?text=Cucumber', description: 'A long English cucumber. Crisp and refreshing for salads or water.' },
-      { id: 206, name: 'Bell Pepper (Red)', price: 1.50, unit: 'each', imageUrl: 'https://placehold.co/280x150/FADBD8/C0392B?text=Pepper', description: 'Sweet, crunchy red bell pepper. Perfect for stir-fries or snacking.' },
-      { id: 207, name: 'Onion', price: 1.30, unit: 'kg', imageUrl: 'https://placehold.co/280x150/F5EFEF/D7BDE2?text=Onion', description: 'A 1kg bag of versatile yellow onions, the base for any great meal.' },
+      { id: 201, name: 'Carrot', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/mkyNQ01Q/carrot.jpg', description: '' },
+      { id: 202, name: 'Potatoes', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/QNQbGWYF/Potatoes.jpg', description: '' },
+      { id: 203, name: 'Japanese Sweet Potatoes', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/wMQchSRP/Japanese_sweet_potatoes.jpg', description: '' },
+      { id: 204, name: 'Red Onions', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/jqHX0J36/Red_onions.jpg', description: '' },
+      { id: 205, name: 'Yellow Onions', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/ncn1HcNS/Yellow_onion.jpg', description: '' },
+      { id: 206, name: 'cabbage', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/65xmCXgm/cabbage.jpg', description: '' },
+      { id: 207, name: 'Napa_cabbage', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/mZYwfFpg/Napa_cabbage.jpg', description: '' },
     ]
   },
   {
-    name: 'Wine',
+    name: 'Fresh Meat',
     items: [
-      { id: 301, name: 'Red Wine', price: 15.00, unit: 'bottle', imageUrl: 'https://placehold.co/280x150/EAECEE/7B241C?text=Red+Wine', description: 'A full-bodied Cabernet Sauvignon with notes of dark cherry and oak.' },
-      { id: 302, name: 'White Wine', price: 14.50, unit: 'bottle', imageUrl: 'https://placehold.co/280x150/FDFEFE/FEF5E7?text=White+Wine', description: 'A crisp, refreshing Sauvignon Blanc with hints of citrus and green apple.' },
-      { id: 303, name: 'Rosé Wine', price: 16.00, unit: 'bottle', imageUrl: 'https://placehold.co/280x150/FEF2F2/F5B7B1?text=Rosé+Wine', description: 'A dry, light-bodied Rosé from Provence. Perfect for summer.' },
-      { id: 304, name: 'Sparkling Wine', price: 22.00, unit: 'bottle', imageUrl: 'https://placehold.co/280x150/F4FAFE/D6EAF8?text=Sparkling', description: 'A celebratory bottle of Brut sparkling wine. Fine bubbles and a toasty finish.' },
+      { id: 301, name: 'Farm Chicken', price: 7.25, unit: 'kg', imageUrl: 'https://i.postimg.cc/nrGYv69Y/Farm_chicken.jpg', description: '' },
     ]
   },
   {
     name: 'Soap',
     items: [
-      { id: 401, name: 'Hand Soap', price: 3.50, unit: 'bottle', imageUrl: 'https://placehold.co/280x150/EBF5FB/3498DB?text=Hand+Soap', description: 'Gentle foaming hand soap with a light lavender scent. 250ml bottle.' },
-      { id: 402, name: 'Bar Soap', price: 5.00, unit: '3-pack', imageUrl: 'https://placehold.co/280x150/E8F8F5/1ABC9C?text=Bar+Soap', description: 'A 3-pack of moisturizing shea butter bar soap. Unscented.' },
-      { id: 403, name: 'Dish Soap', price: 4.20, unit: 'bottle', imageUrl: 'https://placehold.co/280x150/E8F6F3/16A085?text=Dish+Soap', description: 'Tough on grease, plant-based dish soap with a lemon verbena scent. 500ml.' },
-      { id: 404, name: 'Body Wash', price: 6.00, unit: 'bottle', imageUrl: 'https://placehold.co/280x150/F4ECF7/A569BD?text=Body+Wash', description: 'Hydrating body wash with argan oil and a floral scent. 400ml.' },
+      { id: 401, name: '1Clean Laundry Detergent Blue', price: 2.50, unit: 'bottle', imageUrl: 'https://i.postimg.cc/d3RVHgCc/1Clean_Laundry_Detergent_Blue.jpg', description: '' },
+      { id: 402, name: '1Clean Laundry Detergent Pink', price: 2.50, unit: 'bottle', imageUrl: 'https://i.postimg.cc/598y2QR6/1Clean_Laundry_Detergent_Pink.jpg', description: '' },
+      { id: 403, name: '1Clean Laundry Detergent Red', price: 2.50, unit: 'bottle', imageUrl: 'https://i.postimg.cc/G3vtmT5y/1Clean_Laundry_Detergent_Red.jpg', description: '' },
+      { id: 404, name: '1Clean Fragrant Water Blue', price: 3.00, unit: 'bottle', imageUrl: 'https://i.postimg.cc/gjb0KGnv/1Clean_Fragrant_Water_Blue.jpg', description: '' },
+      { id: 405, name: '1Clean Fragrant Water Purple', price: 8.00, unit: 'bottle', imageUrl: 'https://i.postimg.cc/L5k8CG1N/1Clean_Fragrant_Water_Purple.jpg', description: '' },
+      { id: 406, name: '1Clean Dish Soap', price: 0.65, unit: 'bottle', imageUrl: 'https://i.postimg.cc/FzXKxh7J/1Clean_Dish_Soap.jpg', description: '' },
+      { id: 407, name: '1Clean Dishwashing Liquid Green', price: 0.65, unit: 'bottle', imageUrl: 'https://i.postimg.cc/PJnqMdPW/1Clean_Dishwashing_Liquid_Green.jpg', description: '' },
+      { id: 408, name: '1Clean Dishwashing Liquid White', price: 0.65, unit: 'bottle', imageUrl: 'https://i.postimg.cc/sxC2J3v7/1Clean_Dishwashing_Liquid_White.jpg', description: '' },
+      { id: 409, name: 'Ora Laundry Detergent', price: 1.75, unit: 'bottle', imageUrl: 'https://i.postimg.cc/h4VvtQ5r/Ora_Laundry_Detergent.jpg', description: '' },
+      { id: 410, name: 'Ora Fragrant Water', price: 2.50, unit: 'bottle', imageUrl: 'https://i.postimg.cc/L4j58gbj/Ora_Fragrant_Water.jpg', description: '' },
+      { id: 411, name: 'Ora Dish Soap', price: 0.65, unit: 'bottle', imageUrl: 'https://i.postimg.cc/wxDMjRGk/Ora_Dish_Soap.jpg', description: '' },
+      { id: 412, name: 'Ora Toilet Water', price: 1.5, unit: 'bottle', imageUrl: 'https://i.postimg.cc/CMb5xnQm/Ora_Toilet_Water.jpg', description: '' },
+      { id: 413, name: 'Klen Shampoo', price: 3.50, unit: 'bottle', imageUrl: 'https://i.postimg.cc/J7j0zH2Z/Klen_Shampoo.jpg', description: '' },
+    ]
+  },
+  {
+    name: 'Herbs',
+    items: [
+      { id: 501, name: 'Black Sesame Cola oil', price: 7.25, unit: 'bottle', imageUrl: 'https://i.postimg.cc/mg9Vkw7t/Black_Sesame_Cola_oil.jpg', description: '' },
+      { id: 502, name: 'Balsam Cola oil', price: 7.25, unit: 'bottle', imageUrl: 'https://i.postimg.cc/tRSHNXw2/Balsam-Cola-oil.jpg', description: '' },
+      { id: 503, name: 'Ginger and Moringa oil', price: 7.25, unit: 'bottle', imageUrl: 'https://i.postimg.cc/cL3TCmf1/Ginger_and_Moringa_oil.jpg', description: '' },
+      { id: 504, name: 'Ginseng oil', price: 7.25, unit: 'bottle', imageUrl: 'https://i.postimg.cc/152JyTVm/Ginseng_oil.jpg', description: '' },
     ]
   },
   {
     name: 'Spices',
     items: [
-      { id: 501, name: 'Cumin', price: 4.00, unit: 'jar', imageUrl: 'https://placehold.co/280x150/FDF2E9/AF601A?text=Cumin', description: 'Ground cumin, 100g. Earthy and warm, essential for many cuisines.' },
-      { id: 502, name: 'Paprika', price: 3.75, unit: 'jar', imageUrl: 'https://placehold.co/280x150/FADBD8/C0392B?text=Paprika', description: 'Smoked sweet paprika, 100g. Adds rich color and flavor.' },
-      { id: 503, name: 'Turmeric', price: 3.50, unit: 'jar', imageUrl: 'https://placehold.co/280x150/FEF9E7/F39C12?text=Turmeric', description: 'Ground turmeric, 100g. Known for its vibrant color and health benefits.' },
-      { id: 504, name: 'Black Pepper', price: 3.00, unit: 'jar', imageUrl: 'https://placehold.co/280x150/EAECEE/839192?text=Pepper', description: 'Whole black peppercorns, 80g. Ready for your grinder.' },
-      { id: 505, name: 'Garlic Powder', price: 3.25, unit: 'jar', imageUrl: 'https://placehold.co/280x150/FEF9E7/F7DC6F?text=Garlic', description: 'Convenient garlic powder, 90g. For when you\'re out of fresh garlic.' },
-      { id: 506, name: 'Oregano', price: 2.75, unit: 'jar', imageUrl: 'https://placehold.co/280x150/EBF5EE/229954?text=Oregano', description: 'Dried oregano, 50g. The taste of the Mediterranean.' },
+      { id: 501, name: 'កាពិ', price: 1.13, unit: 'ដប', imageUrl: 'https://i.postimg.cc/9fDV0YdK/SS1.jpg', description: '' },
+      { id: 502, name: 'ណាំវ៉ា', price: 10.00, unit: 'ប្រអប់', imageUrl: 'https://i.postimg.cc/jC1gFPDz/SS2.jpg', description: '3in1, 4in1 ,5in1 =1ប្រអប់40000' },
+      { id: 503, name: 'ម្សៅបំពងស្រួយ', price: 0.63, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/WtyWHgd6/SS3.jpg', description: 'ម្សៅបំពងស្រួយ 1kg.7000 ម្សៅបំពងស្រួយ 150g.2500' },
+      { id: 504, name: 'ស្ករស', price: 1.50, unit: 'គីឡូក្រាម', imageUrl: 'https://i.postimg.cc/gXQVNygp/SS4.jpg', description: '' },
+      { id: 505, name: 'អំបិលម៉ត់', price: 1.25, unit: 'គីឡូក្រាម', imageUrl: 'https://i.postimg.cc/gXQVNyg2/SS5.jpg', description: '' },
+      { id: 506, name: 'ប៊ីចេង', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/PvdZqtrJ/SS6.jpg', description: '' },
+      { id: 507, name: 'ម្សៅស៊ុបបន្លែ', price: 5.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/sG3S2VDD/SS7.jpg', description: '' },
+      { id: 508, name: 'ម្សៅស៊ុបឆ្នះ', price: 1.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/V0zMNYLf/SS8.jpg', description: 'ម្សៅស៊ុបឆ្នះ 200g.4000 ម្សៅស៊ុបឆ្នះ 400g.8000' },
+      { id: 509, name: 'ម្សៅស៊ុប គ្រឿងហ្លួង', price: 2.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/GTbYpchB/SS9.jpg', description: '' },
+      { id: 510, name: 'ម្សៅស៊ុប រ៉ាទី', price: 2.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/gLGR0Yk4/SS10.jpg', description: '' }
     ]
   },
   {
-    name: 'Rice',
+    name: 'Sauce',
     items: [
-      { id: 601, name: 'Jasmine Rice', price: 12.00, unit: '5kg bag', imageUrl: 'https://placehold.co/280x150/F8F9F9/AAB7B8?text=Jasmine+Rice', description: 'Fragrant jasmine rice from Thailand. A large 5kg bag.' },
-      { id: 602, name: 'Brown Rice', price: 4.50, unit: '1kg bag', imageUrl: 'https://placehold.co/280x150/F5EBE0/D5C0A9?text=Brown+Rice', description: 'A healthy, fiber-rich whole grain rice. 1kg bag.' },
-      { id: 603, name: 'Basmati Rice', price: 5.50, unit: '1kg bag', imageUrl: 'https://placehold.co/280x150/F8F9F9/AAB7B8?text=Basmati+Rice', description: 'Aromatic long-grain rice, perfect for curries. 1kg bag.' },
-      { id: 604, name: 'Arborio Rice', price: 6.00, unit: '500g box', imageUrl: 'https://placehold.co/280x150/F8F9F9/AAB7B8?text=Arborio+Rice', description: 'Creamy Italian rice, ideal for risotto. 500g box.' },
+      { id: 601, name: 'ប្រេងឆា រំដួល', price: 2.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/9zqCsNwC/S1.jpg', description: '' },
+      { id: 602, name: 'ទឹកត្រីកញ្ចាញ់ច្រាស', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/WtJTxfqj/S2.jpg', description: '' },
+      { id: 603, name: 'ទឹកត្រីដបថ្ម', price: 3.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/c680P5tN/S3.jpg', description: '' },
+      { id: 604, name: 'ទឹកត្រីបណ្ដូលបាយ ', price: 0.88, unit: 'ដប', imageUrl: 'https://i.postimg.cc/ThWfBH5v/S4.jpg', description: '' },
+      { id: 605, name: 'ទឹកត្រីបណ្ដូលបាយ ២ឆ្នាំ', price: 3.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/WhLTV60z/S6.jpg', description: '' },
     ]
   },
   {
-    name: 'Snacks',
+    name: 'Sauces 2',
     items: [
-      { id: 701, name: 'Potato Chips', price: 2.80, unit: 'bag', imageUrl: 'https://placehold.co/280x150/FEF9E7/F1C40F?text=Chips', description: 'Classic salted potato chips. A large bag for sharing (or not).' },
-      { id: 702, name: 'Chocolate Bar', price: 1.90, unit: 'bar', imageUrl: 'https://placehold.co/280x150/EAECEE/7B241C?text=Chocolate', description: 'Rich dark chocolate bar, 70% cocoa. 100g bar.' },
-      { id: 703, name: 'Pretzels', price: 3.20, unit: 'bag', imageUrl: 'https://placehold.co/280x150/FDF2E9/E59866?text=Pretzels', description: 'A bag of crunchy, salty pretzels. A classic snack.' },
-      { id: 704, name: 'Mixed Nuts', price: 7.00, unit: '250g', imageUrl: 'https://placehold.co/280x150/F6EEE0/BAA482?text=Nuts', description: 'A roasted and salted mix of almonds, cashews, and walnuts. 250g.' },
-      { id: 705, name: 'Cookies', price: 4.00, unit: 'pack', imageUrl: 'https://placehold.co/280x150/FDF2E9/E59866?text=Cookies', description: 'Chocolate chip cookies, just like homemade. 12 cookies per pack.' },
-      { id: 706, name: 'Popcorn', price: 2.50, unit: 'bag', imageUrl: 'https://placehold.co/280x150/FEF9E7/F7DC6F?text=Popcorn', description: 'Ready-to-eat sweet and salty popcorn. Perfect for movie night.' },
+      
+      { id: 606, name: 'ទឹកស៊ីអ៊ីវ 365', price: 0.88, unit: 'ដប', imageUrl: 'https://i.postimg.cc/qgC4WZ6t/S7.jpg', description: '' },
+      { id: 607, name: 'ទឹកស៊ីអ៊ីវចំការដូង', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/QHGhDkcW/S8.jpg', description: '' },
+      { id: 608, name: 'ទឹកស៊ីអ៊ីវលាង ឡេង', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/dLPwFmGB/S9.jpg', description: '' },
+      { id: 609, name: 'ទឹកម្ទេស', price: 0.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/tYQpbtFN/S10.jpg', description: '' },
+      { id: 610, name: 'ទឹកម្ទេសចំការដូង', price: 0.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/rKXMTC5h/S11.jpg', description: '' },
+      { id: 611, name: 'ទឹកម្ទេសផ្អែម', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/mtfB4N7p/S12.jpg', description: '' },
+      { id: 612, name: 'ទឹកប៉េងប៉ោះ', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Yh6kCGx8/S13.jpg', description: '' },
+      { id: 613, name: 'ទឹកសៀងចំការដូង', price: 0.63, unit: 'ដប', imageUrl: 'https://i.postimg.cc/gnVd2XK1/S14.jpg', description: '' },
+      { id: 614, name: 'ទឹកសៀង', price: 0.63, unit: 'ដប', imageUrl: 'https://i.postimg.cc/ZWR9gB2j/S15.jpg', description: '' },
     ]
-  }
+  },
+  {
+    name: 'Sauces 3',
+    items: [
+      
+      { id: 615, name: 'ទឹកប្រេងខ្យង', price: 2.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/xXCk7Jhp/S16.jpg', description: '' },
+      { id: 616, name: 'ប្រេងខ្យង ដបថ្ម', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/PCxLcp9R/S17.jpg', description: '' },
+      { id: 617, name: 'ប្រេងខ្យងកាន 5L', price: 4.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/18tgTn2v/S18.jpg', description: '' },
+      { id: 618, name: 'ប្រេងខ្យងកាន 1L', price: 1.13, unit: 'ដប', imageUrl: 'https://i.postimg.cc/yDdJ5g2z/S19.jpg', description: '' },
+      { id: 619, name: 'ប្រេងខ្យងចំការដូង', price: 1.13, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Yv94VGTt/S20.jpg', description: '' },
+    ]
+  },
+  {
+    name: 'Grains',
+    items: [
+      { id: 701, name: 'ស្វាយចន្ទី 280g', price: 4.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/ykKSkBsw/Cashew-Nuts-280g.jpg', description: '' },
+      { id: 702, name: 'ស្វាយចន្ទីចំហៀង 500g', price: 8.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/xcQbcYnB/Cashew-Nuts-500g.jpg', description: '' },
+      { id: 703, name: 'ស្វាយចន្ទី 500g', price: 5.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/jLTJLKt9/Cashew-Nuts-Slide-500g.jpg', description: '' },
+      { id: 704, name: 'ស្វាយចន្ទី​ 500g', price: 7.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/SJGY95xP/Cashew-Nuts-500g.jpg', description: '' },
+    ]
+  },
+  {
+    name: 'Candy',
+    items: [
+      { id: 601, name: 'Jasmine', price: 1.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/bsP2s8pL/Banana-jam.jpg', description: '' },
+      { id: 602, name: 'Jasmine', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/8jbfv3CN/Coconut-candy.jpg', description: '' },
+      { id: 603, name: 'Jasmine', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/gnKLh50P/Coconut-candy-box.jpg', description: '' },
+    ]
+  },
+  {
+    name: 'Wine',
+    items: [
+      { id: 301, name: 'ស្រាវីស្គីចេក', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/N25cwXqb/W1.jpg', description: '' },
+      { id: 302, name: 'ស្រាចេកតាអុង', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/30dTHG56/W2.jpg', description: '' },
+      { id: 303, name: 'ស្រាចេកហនុមាន', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/fSJNhdnH/W3.jpg', description: '' },
+      { id: 304, name: 'ស្រាចដកក្រហម', price: 8.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/ZvCShNt7/W4.jpg', description: '' },
+      { id: 305, name: 'ស្រាចេកបៃតង', price: 8.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/JHGLWXC8/W5.jpg', description: '' },
+    ]
+  },
 ])
 </script>
 
