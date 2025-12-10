@@ -57,7 +57,7 @@
           <button @click="closeModal" class="close-button">&times;</button>
           <img :src="selectedItem.imageUrl" :alt="selectedItem.name" class="modal-image" @error="handleImageError">
           <h2>{{ selectedItem.name }}</h2>
-          <p class="modal-price">${{ selectedItem.price.toFixed(2) }}</p>
+          <p class="modal-price">${{ selectedItem.price.toFixed(2) }}/ {{ selectedItem.unit }}</p>
           <p class="modal-description">{{ selectedItem.description }}</p>
           <button class="add-to-cart-button">Add to Cart</button>
         </div>
@@ -93,7 +93,7 @@ const categories = ref([
   {
     name: 'Fruits',
     items: [
-      { id: 101, name: 'Avocados', price: 3.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/RVPZNXbh/avocados.jpg', description: '' },
+      { id: 101, name: 'Avocados', price: 3.75, unit: 'kg', imageUrl: 'https://i.postimg.cc/RVPZNXbh/avocados.jpg', description: '' },
       { id: 102, name: 'Passion', price: 3.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/L4tTKZQq/passion.jpg', description: '' },
       { id: 103, name: 'Beetroot', price: 2.00, unit: 'kg', imageUrl: 'https://i.postimg.cc/D0p3yYf5/beetroot.jpg', description: '' },
       { id: 104, name: 'Yellow Watermelon', price: 0.75, unit: 'kg', imageUrl: 'https://i.postimg.cc/15yK95bb/Yellow_Watermelon.jpg', description: '' },
