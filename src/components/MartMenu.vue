@@ -153,78 +153,78 @@ const categories = ref([
     name: 'Spices',
     items: [
       { id: 501, name: 'កាពិ', price: 1.13, unit: 'ដប', imageUrl: 'https://i.postimg.cc/9fDV0YdK/SS1.jpg', description: '' },
-      { id: 502, name: 'ណាំវ៉ា', price: 10.00, unit: 'ប្រអប់', imageUrl: 'https://i.postimg.cc/jC1gFPDz/SS2.jpg', description: '3in1, 4in1 ,5in1 =1ប្រអប់40000' },
-      { id: 503, name: 'ម្សៅបំពងស្រួយ', price: 0.63, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/WtyWHgd6/SS3.jpg', description: 'ម្សៅបំពងស្រួយ 1kg.7000 ម្សៅបំពងស្រួយ 150g.2500' },
-      { id: 504, name: 'ស្ករស', price: 1.50, unit: 'គីឡូក្រាម', imageUrl: 'https://i.postimg.cc/gXQVNygp/SS4.jpg', description: '' },
-      { id: 505, name: 'អំបិលម៉ត់', price: 1.25, unit: 'គីឡូក្រាម', imageUrl: 'https://i.postimg.cc/gXQVNyg2/SS5.jpg', description: '' },
-      { id: 506, name: 'ប៊ីចេង', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/PvdZqtrJ/SS6.jpg', description: '' },
-      { id: 507, name: 'ម្សៅស៊ុបបន្លែ', price: 5.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/sG3S2VDD/SS7.jpg', description: '' },
-      { id: 508, name: 'ម្សៅស៊ុបឆ្នះ', price: 1.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/V0zMNYLf/SS8.jpg', description: 'ម្សៅស៊ុបឆ្នះ 200g.4000 ម្សៅស៊ុបឆ្នះ 400g.8000' },
-      { id: 509, name: 'ម្សៅស៊ុប គ្រឿងហ្លួង', price: 2.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/GTbYpchB/SS9.jpg', description: '' },
-      { id: 510, name: 'ម្សៅស៊ុប រ៉ាទី', price: 2.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/gLGR0Yk4/SS10.jpg', description: '' }
+      { id: 502, name: 'ណាំវ៉ា', price: 10.00, unit: 'ប្រអប់', imageUrl: 'https://i.postimg.cc/ncFyM1Zw/SS2.jpg', description: '3in1, 4in1 ,5in1 =1ប្រអប់40000' },
+      { id: 503, name: 'ម្សៅបំពងស្រួយ', price: 0.63, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/m2LvhSRq/SS3.jpg', description: 'ម្សៅបំពងស្រួយ 1kg.7000 ម្សៅបំពងស្រួយ 150g.2500' },
+      { id: 504, name: 'ស្ករស', price: 1.50, unit: 'គីឡូក្រាម', imageUrl: 'https://i.postimg.cc/fyT8WBXV/SS4.jpg', description: '' },
+      { id: 505, name: 'អំបិលម៉ត់', price: 1.25, unit: 'គីឡូក្រាម', imageUrl: 'https://i.postimg.cc/D0yxfBsL/SS5.jpg', description: '' },
+      { id: 506, name: 'ប៊ីចេង', price: 1.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/d3y941b2/SS6.jpg', description: '' },
+      { id: 507, name: 'ម្សៅស៊ុបបន្លែ', price: 5.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/Wzk7X3Br/SS7.jpg', description: '' },
+      { id: 508, name: 'ម្សៅស៊ុបឆ្នះ', price: 1.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/nrD10zyD/SS8.jpg', description: 'ម្សៅស៊ុបឆ្នះ 200g.4000 ម្សៅស៊ុបឆ្នះ 400g.8000' },
+      { id: 509, name: 'ម្សៅស៊ុប គ្រឿងហ្លួង', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/hvd0pjk0/SS9.jpg', description: '' },
+      { id: 510, name: 'ម្សៅស៊ុប រ៉ាទី', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/3NvZnNMM/SS10.jpg', description: '' }
     ]
   },
   {
     name: 'Sauce',
     items: [
-      { id: 601, name: 'ប្រេងឆា រំដួល', price: 2.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Yv94VGTt/S20.jpg', description: '' },
-      { id: 602, name: 'ទឹកត្រីកញ្ចាញ់ច្រាស', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/9zqCsNwC/S1.jpg', description: '' },
-      { id: 603, name: 'ទឹកត្រីដបថ្ម', price: 3.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/WtJTxfqj/S2.jpg', description: '' },
-      { id: 604, name: 'ទឹកត្រីបណ្ដូលបាយ ', price: 0.88, unit: 'ដប', imageUrl: 'https://i.postimg.cc/c680P5tN/S3.jpg', description: '' },
-      { id: 605, name: 'ទឹកត្រីបណ្ដូលបាយ ២ឆ្នាំ', price: 3.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/ThWfBH5v/S4.jpg', description: '' },
+      { id: 601, name: 'ប្រេងឆា រំដួល', price: 2.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Nj81KR42/S20.jpg', description: '' },
+      { id: 602, name: 'ទឹកត្រីកញ្ចាញ់ច្រាស', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/59syYhxY/S1.jpg', description: '' },
+      { id: 603, name: 'ទឹកត្រីដបថ្ម', price: 3.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/PfSJpgtL/S2.jpg', description: '' },
+      { id: 604, name: 'ទឹកត្រីបណ្ដូលបាយ ', price: 0.88, unit: 'ដប', imageUrl: 'https://i.postimg.cc/sfTxQkV1/S3.jpg', description: '' },
+      { id: 605, name: 'ទឹកត្រីបណ្ដូលបាយ ២ឆ្នាំ', price: 3.00, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Kc0jk6Zj/S4.jpg', description: '' },
     ]
   },
   {
     name: 'Sauces 2',
     items: [
       
-      { id: 606, name: 'ទឹកស៊ីអ៊ីវ 365', price: 0.88, unit: 'ដប', imageUrl: 'https://i.postimg.cc/WhLTV60z/S6.jpg', description: '' },
-      { id: 607, name: 'ទឹកស៊ីអ៊ីវចំការដូង', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/qgC4WZ6t/S7.jpg', description: '' },
-      { id: 608, name: 'ទឹកស៊ីអ៊ីវលាង ឡេង', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/QHGhDkcW/S8.jpg', description: '' },
-      { id: 609, name: 'ទឹកម្ទេស', price: 0.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/dLPwFmGB/S9.jpg', description: '' },
-      { id: 610, name: 'ទឹកម្ទេសចំការដូង', price: 0.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/tYQpbtFN/S10.jpg', description: '' },
-      { id: 611, name: 'ទឹកម្ទេសផ្អែម', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/rKXMTC5h/S11.jpg', description: '' },
-      { id: 612, name: 'ទឹកប៉េងប៉ោះ', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/mtfB4N7p/S12.jpg', description: '' },
-      { id: 613, name: 'ទឹកសៀងចំការដូង', price: 0.63, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Yh6kCGx8/S13.jpg', description: '' },
-      { id: 614, name: 'ទឹកសៀង', price: 0.63, unit: 'ដប', imageUrl: 'https://i.postimg.cc/gnVd2XK1/S14.jpg', description: '' },
+      { id: 606, name: 'ទឹកស៊ីអ៊ីវ 365', price: 0.88, unit: 'ដប', imageUrl: 'https://i.postimg.cc/NfLM1dM6/S6.jpg', description: '' },
+      { id: 607, name: 'ទឹកស៊ីអ៊ីវចំការដូង', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/G3Xt8Wcj/S7.jpg', description: '' },
+      { id: 608, name: 'ទឹកស៊ីអ៊ីវលាង ឡេង', price: 0.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/MKXTy9Tt/S8.jpg', description: '' },
+      { id: 609, name: 'ទឹកម្ទេស', price: 0.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/zX3BnxB9/S9.jpg', description: '' },
+      { id: 610, name: 'ទឹកម្ទេសចំការដូង', price: 0.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/kXD4xT4z/S10.jpg', description: '' },
+      { id: 611, name: 'ទឹកម្ទេសផ្អែម', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/MKXTy9H8/S11.jpg', description: '' },
+      { id: 612, name: 'ទឹកប៉េងប៉ោះ', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/J4tnbp08/S12.jpg', description: '' },
+      { id: 613, name: 'ទឹកសៀងចំការដូង', price: 0.63, unit: 'ដប', imageUrl: 'https://i.postimg.cc/bNMvL1SX/S13.jpg', description: '' },
+      { id: 614, name: 'ទឹកសៀង', price: 0.63, unit: 'ដប', imageUrl: 'https://i.postimg.cc/65SQzC46/S14.jpg', description: '' },
     ]
   },
   {
     name: 'Sauces 3',
     items: [
       
-      { id: 615, name: 'ទឹកប្រេងខ្យង', price: 2.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/ZWR9gB2j/S15.jpg', description: '' },
-      { id: 616, name: 'ប្រេងខ្យង ដបថ្ម', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/xXCk7Jhp/S16.jpg', description: '' },
-      { id: 617, name: 'ប្រេងខ្យងកាន 5L', price: 4.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/PCxLcp9R/S17.jpg', description: '' },
-      { id: 618, name: 'ប្រេងខ្យងកាន 1L', price: 1.13, unit: 'ដប', imageUrl: 'https://i.postimg.cc/18tgTn2v/S18.jpg', description: '' },
-      { id: 619, name: 'ប្រេងខ្យងចំការដូង', price: 1.13, unit: 'ដប', imageUrl: 'https://i.postimg.cc/yDdJ5g2z/S19.jpg', description: '' },
+      { id: 615, name: 'ទឹកប្រេងខ្យង', price: 2.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/DwQqS1gV/S15.jpg', description: '' },
+      { id: 616, name: 'ប្រេងខ្យង ដបថ្ម', price: 1.50, unit: 'ដប', imageUrl: 'https://i.postimg.cc/bw0QZ1TP/S16.jpg', description: '' },
+      { id: 617, name: 'ប្រេងខ្យងកាន 5L', price: 4.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Hk0Qrb2d/S17.jpg', description: '' },
+      { id: 618, name: 'ប្រេងខ្យងកាន 1L', price: 1.13, unit: 'ដប', imageUrl: 'https://i.postimg.cc/3xjgk2BQ/S18.jpg', description: '' },
+      { id: 619, name: 'ប្រេងខ្យងចំការដូង', price: 1.13, unit: 'ដប', imageUrl: 'https://i.postimg.cc/525wX83j/S19.jpg', description: '' },
     ]
   },
   {
     name: 'Grains',
     items: [
-      { id: 701, name: 'ស្វាយចន្ទី 280g', price: 4.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/ykKSkBsw/Cashew-Nuts-280g.jpg', description: '' },
-      { id: 702, name: 'ស្វាយចន្ទីចំហៀង 500g', price: 8.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/xcQbcYnB/Cashew-Nuts-500g.jpg', description: '' },
-      { id: 703, name: 'ស្វាយចន្ទី 500g', price: 5.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/jLTJLKt9/Cashew-Nuts-Slide-500g.jpg', description: '' },
-      { id: 704, name: 'ស្វាយចន្ទី​ 500g', price: 7.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/SJGY95xP/Cashew-Nuts-500g.jpg', description: '' },
+      { id: 701, name: 'ស្វាយចន្ទី 280g', price: 4.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/rF0GZFbF/Cashew_Nuts_280g.jpg', description: '' },
+      { id: 702, name: 'ស្វាយចន្ទី 500g', price: 8.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/ZKBPsKgY/Cashew_Nuts_500g.jpg', description: '' },
+      { id: 703, name: 'ស្វាយចន្ទីចំហៀង 500g', price: 5.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/FsdbCsq9/Cashew_Nuts_Slide_500g.jpg', description: '' },
+      { id: 704, name: 'ស្វាយចន្ទី​ 500g', price: 7.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/ZKG8GztJ/Cashew_Nuts_500g.jpg', description: '' },
     ]
   },
   {
     name: 'Candy',
     items: [
-      { id: 601, name: 'ដំណាប់ចេក', price: 1.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/bsP2s8pL/Banana-jam.jpg', description: '' },
-      { id: 602, name: 'ស្ករគ្រាប់ដូង', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/8jbfv3CN/Coconut-candy.jpg', description: '' },
-      { id: 603, name: 'ស្ករគ្រាប់ដូងប្រអប់', price: 1.25, unit: 'ប្រអប់', imageUrl: 'https://i.postimg.cc/gnKLh50P/Coconut-candy-box.jpg', description: '' },
+      { id: 601, name: 'ដំណាប់ចេក', price: 1.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/7YG1tYcv/Banana_jam.jpg', description: '' },
+      { id: 602, name: 'ស្ករគ្រាប់ដូង', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/dtb2bcPk/Coconut_candy.jpg', description: '' },
+      { id: 603, name: 'ស្ករគ្រាប់ដូងប្រអប់', price: 1.25, unit: 'ប្រអប់', imageUrl: 'https://i.postimg.cc/Qx2Q2ZGV/Coconut_candy_box.jpg', description: '' },
     ]
   },
   {
     name: 'Wine',
     items: [
-      { id: 301, name: 'ស្រាវីស្គីចេក', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/N25cwXqb/W1.jpg', description: '' },
-      { id: 302, name: 'ស្រាចេកតាអុង', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/30dTHG56/W2.jpg', description: '' },
-      { id: 303, name: 'ស្រាចេកហនុមាន', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/fSJNhdnH/W3.jpg', description: '' },
-      { id: 304, name: 'ស្រាចដកក្រហម', price: 8.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/ZvCShNt7/W4.jpg', description: '' },
-      { id: 305, name: 'ស្រាចេកបៃតង', price: 8.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/JHGLWXC8/W5.jpg', description: '' },
+      { id: 301, name: 'ស្រាវីស្គីចេក', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Kj5vB79X/W1.jpg', description: '' },
+      { id: 302, name: 'ស្រាចេកតាអុង', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/HntsX0Sp/W2.jpg', description: '' },
+      { id: 303, name: 'ស្រាចេកហនុមាន', price: 11.25, unit: 'ដប', imageUrl: 'https://i.postimg.cc/SRGNCLZp/W3.jpg', description: '' },
+      { id: 304, name: 'ស្រាចដកក្រហម', price: 8.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/Fzxs3bP4/W4.jpg', description: '' },
+      { id: 305, name: 'ស្រាចេកបៃតង', price: 8.75, unit: 'ដប', imageUrl: 'https://i.postimg.cc/mkS2C3dP/W5.jpg', description: '' },
     ]
   },
 ])
