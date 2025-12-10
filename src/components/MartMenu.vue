@@ -212,9 +212,9 @@ const categories = ref([
   {
     name: 'Candy',
     items: [
-      { id: 601, name: 'Jasmine', price: 1.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/bsP2s8pL/Banana-jam.jpg', description: '' },
-      { id: 602, name: 'Jasmine', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/8jbfv3CN/Coconut-candy.jpg', description: '' },
-      { id: 603, name: 'Jasmine', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/gnKLh50P/Coconut-candy-box.jpg', description: '' },
+      { id: 601, name: 'ដំណាប់ចេក', price: 1.50, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/bsP2s8pL/Banana-jam.jpg', description: '' },
+      { id: 602, name: 'ស្ករគ្រាប់ដូង', price: 2.00, unit: 'កញ្ជប់', imageUrl: 'https://i.postimg.cc/8jbfv3CN/Coconut-candy.jpg', description: '' },
+      { id: 603, name: 'ស្ករគ្រាប់ដូងប្រអប់', price: 1.25, unit: 'ប្រអប់', imageUrl: 'https://i.postimg.cc/gnKLh50P/Coconut-candy-box.jpg', description: '' },
     ]
   },
   {
